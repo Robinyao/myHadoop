@@ -3,3 +3,5 @@
 	email = 519613307@qq.com
 [core]
 	editor = vim
+[push]
+	default = simple
