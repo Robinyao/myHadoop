@@ -23,6 +23,7 @@
 
 # The java implementation to use.
 export JAVA_HOME=${JAVA_HOME}
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib:$HADOOP_HOME/lib/native"
 
 # The jsvc implementation to use. Jsvc is required to run secure datanodes
 # that bind to privileged ports to provide authentication of data transfer
