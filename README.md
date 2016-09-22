@@ -7,15 +7,15 @@ A Hadoop platform to study.
 - Spark : 2.0.0
 
 ## exports
-- Ubuntu : ** `~/.bashrc` **
+- Ubuntu : **`~/.bashrc`**
 
 > ```
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export HADOOP_HOME=/home/hadoop/hadoop-2.7.3
+export HADOOP_HOME=/home/myHadoop/hadoop-2.7.3
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
-export HIVE_HOME=/home/hadoop/hive-1.2.1
-export SPARK_HOME=/home/hadoop/spark-2.0.0
+export HIVE_HOME=/home/myHadoop/hive-1.2.1
+export SPARK_HOME=/home/myHadoop/spark-2.0.0
 export PYTHONPATH=$SPARK_HOME/python/:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
 export CLASSPATH=.:$CLASSPATH:$JAVA_HOME/lib:$HADOOP_HOME/myclass:$HIVE_HOME/lib:$SPARK_HOME/lib
 export PATH=$PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin:$HIVE_HOME/bin:$SPARK_HOME/bin
