@@ -8,6 +8,7 @@ A Hadoop platform to study.
 
 ## exports
 - Ubuntu : ** `~/.bashrc` **
+
 > ```
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export HADOOP_HOME=/home/hadoop/hadoop-2.7.3
