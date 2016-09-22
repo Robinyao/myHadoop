@@ -6,3 +6,9 @@ A Hadoop platform to study.
 - Hive : 1.2.1
 - Spark : 2.0.0
 
+## data/
+### These are sogou user query logs
+
+- sogou1.txt 100K records
+- sogou2.txt 300K records
+
