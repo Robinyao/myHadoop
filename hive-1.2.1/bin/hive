@@ -113,7 +113,7 @@ done
 # add Spark assembly jar to the classpath
 if [[ -n "$SPARK_HOME" ]]
 then
-  sparkAssemblyPath=`ls ${SPARK_HOME}/lib/spark-assembly-*.jar`
+  sparkAssemblyPath=`ls ${SPARK_HOME}/jars/*.jar`
   CLASSPATH="${CLASSPATH}:${sparkAssemblyPath}"
 fi
 
