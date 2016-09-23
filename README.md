@@ -27,3 +27,8 @@ export PATH=$PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin:$HIVE_HOME/bin:$SPARK_HOME/bin
 - sogou1.txt 100K records
 - sogou2.txt 300K records
 
+### These are 163 house data
+
+- 163data-110901-160828.xls from 2011-09-01 to 2016-08-28
+- 163data-140901-160828.xls from 2014-09-01 to 2016-08-28
+

@@ -18,6 +18,8 @@
 #
 export HADOOP_HOME=/home/hadoop/hadoop-2.7.3
 export HIVE_HOME=/home/hadoop/hive-1.2.1
+export SPARK_LOCAL_IP=192.168.56.101
+export SPARK_MASTER_IP=192.168.56.101
 
 
 # This file is sourced when running various Spark programs.
